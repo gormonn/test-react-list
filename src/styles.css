@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.List {
+  margin-left: 5%;
+}
+
+.List span:first-of-type {
+  background: lightgray;
+}
+.List span {
+  background: ghostwhite;
+}
+.List span:empty:after {
+  content: "null";
+}
+.List .list__row:nth-child(even) {
+  color: darkgoldenrod;
+}
